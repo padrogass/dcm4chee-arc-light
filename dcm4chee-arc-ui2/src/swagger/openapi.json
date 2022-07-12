@@ -6,8 +6,16 @@
   },
   "servers": [
     {
-      "url": "http://test-ng:8080/dcm4chee-arc",
-      "description": "Test server"
+      "url": "http://pacs.medicaloptica.es:8080/dcm4chee-arc",
+      "description": "DICOM MOA INSEGURO"
+    },
+    {
+      "url": "http://pacs.medicaloptica.es:8443/dcm4chee-arc",
+      "description": "DICOM MOA SEGURO"
+    },
+    {
+      "url": "http://192.9.200.98:11112",
+      "description": "DICOM - MAQUINAS"
     }
   ],
   "tags": [
